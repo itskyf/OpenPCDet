@@ -1,0 +1,48 @@
+---
+name: OpenPCDet
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - gxx=11
+  - pip
+  - pytorch
+  - pytorch-cuda=11.7
+  - torchvision
+  # OpenPCDet
+  - easydict
+  - numba
+  - scikit-image
+  - sharedarray
+  - tensorboard
+  - tqdm
+  # open3d
+  - addict
+  - configargparse
+  - dash-core-components
+  - dash-html-components
+  - dash-table
+  - ipywidgets
+  - matplotlib
+  - nbformat=5.5.0
+  - pandas
+  - pyquaternion
+  - scikit-learn
+  # spconv
+  - fire
+  - lark
+  - portalocker
+  - pybind11
+  # Linter
+  - autoflake
+  - black
+  - clang-tools
+  - cppcheck
+  - debugpy
+  - isort
+  - pylint
+  - yamllint
+  - pip:
+      - open3d
+      - spconv-cu117
